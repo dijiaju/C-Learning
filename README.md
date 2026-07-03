@@ -289,6 +289,22 @@ GitHub
 
 StudentList.c
 
+# Day19
+
+## 学习内容
+- 学生管理系统（基础版）
+- 添加学生功能
+- 链表头插法应用
+
+## 功能
+- AddStudent()
+- Print()
+
+## 技术点
+- struct
+- malloc
+- 头插法
+- 链表操作
 ---
 
 # 📚 已掌握的数据结构
