@@ -21,3 +21,33 @@ Student* AddStudent(Student *head)
 
     return head;
 }
+void Print(Student *head)
+{
+    Student *p=head;
+
+    printf("\n===== 学生信息 =====\n");
+
+    while(p!=NULL)
+    {
+        printf("学号:%d\n",p->id);
+        printf("姓名:%s\n",p->name);
+        printf("成绩:%.1f\n",p->score);
+        printf("-----------------\n");
+
+        p=p->next;
+    }
+}
+Student* Search(Student *head,int id)
+{
+    while(head!=NULL)
+    {
+        if(head->id==id)
+        {
+            return head;
+        }
+
+        head=head->next;
+    }
+
+    return NULL;
+}
